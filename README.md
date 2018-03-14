@@ -7,4 +7,5 @@ https://www.gti.ssr.upm.es/data/Vehicle_database.html
 Then I used sliding windows technique to detect an image in piecewise manner. The size of the window was different depending upon where I was looking for the cars. After that I used heatmap and heatmap threshold to get rid of false positives from the images. Then I ran the algorithm on a video and after running it ona  video I also considered deteccted cars in the last 15 frames to give more rhobust results.
 
 Here is a video output showing detected cars in a video:
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_6v5DhuVh3U/0.jpg)](https://www.youtube.com/watch?v=_6v5DhuVh3U)
